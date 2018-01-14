@@ -14,7 +14,8 @@ function sidebarToggle(){
       </p>
       <a href="index.html" class="sidebarItem" id="sidebarLinkContact">TSA</a>
       <a href="elia.html" class="sidebarItem" id="sidebarLinkMain">ELIA</a>
-      <a href="chapter.html" class="sidebarItem" id="sidebarLinkContact">Our Chapter</a>
+      <a href="chapter.html" class="sidebarItem" id="sidebarLinkContact">Class Modules</a>
+	<a href="newchapter.html" class="sidebarItem" id="sidebarLinkGolf">Our Chapter</a>
       <p class="sidebarText1">
         AI
       </p>
