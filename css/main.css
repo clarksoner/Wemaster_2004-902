@@ -161,3 +161,73 @@
 .playButton:hover, .sidebarItem:active {
 	background-color: #7c7c7c;
 }
+
+/* Additional Styles */
+
+.subtitleText2Centered{
+	color: black;
+	font-weight: 600;
+	font-size: 30px;
+	letter-spacing: 2px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 20px;
+	font-family: 'Kanit', sans-serif;
+	text-align: center;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+	background-color: #f1f1f1;
+	padding-left: 25px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+/* ELIA page styles */
+.floating-box {
+    display: inline-block;
+    width: 500px;
+    height: 1050px;
+    margin: 40px;
+	border: 4px solid  black;
+	border-radius: 20px;
+	padding-left: 25px;
+	box-shadow: 10px 10px grey;
+}
+
+.paddingRight {
+	padding-right: 2cm;
+	word-wrap: break-word;
+	margin: auto;
+}
