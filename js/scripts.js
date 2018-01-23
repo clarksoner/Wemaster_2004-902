@@ -45,6 +45,8 @@ function sidebarToggle(){
 	  	document.getElementById("sidebar").style.display = "block";
 	  	document.getElementById("sidebarContent").style.display = "block";
   	}
+	
+}
 
   	//animation updates
   	function sidebarOpen(){
@@ -83,7 +85,6 @@ function sidebarToggle(){
   			document.getElementById("sidebarContent").style.display = "none";
   		}
   	}
-}
 
 function openTab(evt, tabName) {
 	var i, tabcontent, tablinks;
