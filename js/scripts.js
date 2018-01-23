@@ -1,12 +1,12 @@
   //THIS SECTION SETS THE LINKS
 
-  document.getElementById("sidebar").innerHTML = '<div id="sidebarContent"><center><p class="sidebarText1">About</p><a href="index.html" class="sidebarItem" id="sidebarLinkContact">TSA</a><a href="elia.html" class="sidebarItem" id="sidebarLinkMain">ELIA</a><a href="chapter.html" class="sidebarItem" id="sidebarLinkContact">Class Modules</a><a href="newchapter.html" class="sidebarItem" id="sidebarLinkGolf">Our Chapter</a><p class="sidebarText1">AI</p><a href="tech.html" class="sidebarItem" id="sidebarLinkGolf">Available Technology</a><a href="future.html" class="sidebarItem" id="sidebarLinkGolf">Future Technology</a><a href="safety.html" class="sidebarItem" id="sidebarLinkRich">Safety Concerns</a><a href="cited.html" class="sidebarItem" id="sidebarLinkCodeMagic">Works Cited</a><center></div>';
-
 function sidebarToggle(){
 	//declare variables
 	var openorclose;	//specify the action to perform
 	var sidebarWidth;	//current width of the sidebar
 	var contentWidth;	//current width of the content (main and titlebar)
+	
+	document.getElementById("sidebar").innerHTML = '<div id="sidebarContent"><center><p class="sidebarText1">About</p><a href="index.html" class="sidebarItem" id="sidebarLinkContact">TSA</a><a href="elia.html" class="sidebarItem" id="sidebarLinkMain">ELIA</a><a href="chapter.html" class="sidebarItem" id="sidebarLinkContact">Class Modules</a><a href="newchapter.html" class="sidebarItem" id="sidebarLinkGolf">Our Chapter</a><p class="sidebarText1">AI</p><a href="tech.html" class="sidebarItem" id="sidebarLinkGolf">Available Technology</a><a href="future.html" class="sidebarItem" id="sidebarLinkGolf">Future Technology</a><a href="safety.html" class="sidebarItem" id="sidebarLinkRich">Safety Concerns</a><a href="cited.html" class="sidebarItem" id="sidebarLinkCodeMagic">Works Cited</a><center></div>';
 
 	//check the action, and start that action
 	if(document.getElementById("sidebar").style.display == "none"){
