@@ -1,9 +1,3 @@
-function sidebarToggle(){
-	//declare variables
-	var openorclose;	//specify the action to perform
-	var sidebarWidth;	//current width of the sidebar
-	var contentWidth;	//current width of the content (main and titlebar)
-
   //THIS SECTION SETS THE LINKS
 
   document.getElementById("sidebar").innerHTML = `
@@ -26,6 +20,12 @@ function sidebarToggle(){
     <center>
   </div>`;
 
+function sidebarToggle(){
+	//declare variables
+	var openorclose;	//specify the action to perform
+	var sidebarWidth;	//current width of the sidebar
+	var contentWidth;	//current width of the content (main and titlebar)
+
 	//check the action, and start that action
 	if(document.getElementById("sidebar").style.display == "none"){
 		openorclose = 0;
@@ -36,7 +36,7 @@ function sidebarToggle(){
   	else{
   		openorclose = 1;
   		contentWidth = 50;
-		  sidebarWidth = 20;
+		sidebarWidth = 20;
   		var intervalId = setInterval(sidebarClose,10);
   	}
 
@@ -61,7 +61,7 @@ function sidebarToggle(){
   		document.getElementById("sidebar").style.width = sidebarWidth + '%';
   		//check animation end
   		if(sidebarWidth == 20){
-        document.getElementById('sidebar').style.height = (document.getElementById('main').offsetHeight + 190) + 'px';
+        		document.getElementById('sidebar').style.height = (document.getElementById('main').offsetHeight + 190) + 'px';
   			clearInterval(intervalId);
   		}
   	}
