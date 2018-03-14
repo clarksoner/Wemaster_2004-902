@@ -6,13 +6,13 @@
 .wrapper{
 	width: 100%;
 	max-width: 100%;
-	background-color: #a2907e;
+	background-color: #FF0000;
 	height: 100%;
 }
 
 .sidebar{
 	float: left;
-	background-color: #49251e;
+	background-color: #000000;
 	box-shadow: -5px 0 5px -5px #333, 5px 0 5px -5px #333;
 	padding-top: 10px;
 }
@@ -20,7 +20,7 @@
 .main{
 	height: 100%;
 	min-height: 1000px;
-	background-color: #ffe4c4;
+	background-color: #FFFFFF;
 }
 
 .titlebar{
@@ -53,7 +53,7 @@
 }
 
 .sidebarText1{
-	color: white;
+	color: #FF0000;
 	font-weight: 600;
 	font-size: 30px;
 	letter-spacing: 2px;
