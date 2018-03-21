@@ -55,7 +55,7 @@
 .sidebarText1{
 	color: #FF0000;
 	font-weight: 600;
-	font-size: 30px;
+	font-size: 20px;
 	letter-spacing: 2px;
 	padding-left: 40px;
 	padding-right: 40px;
@@ -109,16 +109,16 @@
 .sidebarItem{
 	font-family: 'Kanit', sans-serif;
 	color: white;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: auto;
-	padding-top: 25px;
+	padding-top: 10px;
 	letter-spacing: 1px;
 	float: center;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
 	width:80%;
-	height: 50px;
+	height: 40px;
 	background-color: #3a3a3a;
 }
 
@@ -244,7 +244,7 @@
 	border: 2px solid  black;
 	border-radius: 5px;
 	display: inline-block;
-	
+
 	margin: 40px;
 }
 
