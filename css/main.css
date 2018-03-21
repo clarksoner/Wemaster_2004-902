@@ -13,6 +13,7 @@
 .sidebar{
 	float: left;
 	background-color: #000000;
+	background-image:"img/background 3.png";
 	box-shadow: -5px 0 5px -5px #333, 5px 0 5px -5px #333;
 	padding-top: 10px;
 }
@@ -26,6 +27,7 @@
 .titlebar{
 	height: 200px;
 	background-color: #000000;
+	background-image: "img/background.png";
 	text-align: center;
 	overflow: hidden;
 }
