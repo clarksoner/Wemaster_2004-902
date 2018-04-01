@@ -28,9 +28,7 @@
 				Home Page 
 			</p>
 			<br />
-			<p class="titleText2">
-				Let's make it look great
-			</p>
+			
 
 		</div>
 
@@ -40,18 +38,49 @@
 			<img src="img/TSA.jpg" width="50%" >
 			</center>
 
-			<p class="subtitleText2">
-				Creed
-			</p>
+	<script type=”text/javascript”><br /><br /><br /><br /><br /><br /><br /><br /><br />
+			// Author: ideal-helper.com<br /><br /><br /><br /><br /><br /><br /><br /><br />
+			// Description: Photo slideshow to add your photos and embed into your website and blog post. </p><br /><br /><br /><br /><br /><br /><br /><br />
+			<p>var x=0;</p><br /><br /><br /><br /><br /><br /><br /><br />
+			<p>function rotate(num){<br /><br /><br /><br /><br /><br /><br /><br /><br />
+			fs=document.ff.slide;<br /><br /><br /><br /><br /><br /><br /><br /><br />
+			x=num%fs.length;<br /><br /><br /><br /><br /><br /><br /><br /><br />
+			if(x<0) x=fs.length-1;<br /><br /><br /><br /><br /><br /><br /><br /><br />
+			document.images.show.src=fs.options[x].value;<br /><br /><br /><br /><br /><br /><br /><br /><br />
+			fs.selectedIndex=x;}</p><br /><br /><br /><br /><br /><br /><br /><br />
+			<p>function auto() {<br /><br /><br /><br /><br /><br /><br /><br /><br />
+			if(document.ff.fa.value == “Stop”){<br /><br /><br /><br /><br /><br /><br /><br /><br />
+			rotate(++x);setTimeout(“auto()”, 2000);}}</p><br /><br /><br /><br /><br /><br /><br /><br />
+			<p>window.onload=function() document.ff.fa.value=”Stop”;auto();}<br /><br /><br /><br /><br /><br /><br /><br /><br />
+			</script></p><br /><br /><br /><br /><br /><br /><br /><br /><br />
+			<form name=”ff”><br /><br /><br /><br /><br /><br /><br /><br /><br />
+			<table cellpadding=”3″ style=”border:1px solid;border-collapse:collapse; border-color:#C0C0C0″><br /><br /><br /><br /><br /><br /><br /><br /><br />
+			<tr><br /><br /><br /><br /><br /><br /><br /><br /><br />
+			<th align=”center”>Chapter Highlights</th><br /><br /><br /><br /><br /><br /><br /><br /><br />
+			</tr><br /><br /><br /><br /><br /><br /><br /><br /><br />
+			<tr><br /><br /><br /><br /><br /><br /><br /><br /><br />
+			<td align=”center”><br /><br /><br /><br /><br /><br /><br /><br /><br />
+			<img src=”img/HomeComing Carnival.JPG” name=”show”><br /><br /><br /><br /><br /><br /><br /><br /><br />
+			</td><br /><br /><br /><br /><br /><br /><br /><br /><br />
+			</tr><br /><br /><br /><br /><br /><br /><br /><br /><br />
+			<tr><br /><br /><br /><br /><br /><br /><br /><br /><br />
+			<td align=”center” style=”border:1px solid; border-color:#49251e″><br /><br /><br /><br /><br /><br /><br /><br /><br />
+			<input type=”button” onclick=”rotate(0);” value=”ll<<” title=”Jump to Start” /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+			<input type=”button” onclick=”rotate(x-1);” value=”Previous” title=”Previous photo” style=”width:80px;” /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+			<input type=”button” name=”fa” onClick=”this.value=((this.value==’Stop’)?’Start’:’Stop’);auto();” value=”Start Slidshow” title=”Auto-play” style=”width:150px;” /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+			<input type=”button” onclick=”rotate(x+1);” value=”Next” title=”Next Photo” style=”width:80px;” /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+			<input type=”button” onclick=”rotate(this.form.slide.length-1);” value=”>>ll” title=”Jump to end” /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+			</td><br /><br /><br /><br /><br /><br /><br /><br /><br />
+			</tr><br /><br /><br /><br /><br /><br /><br /><br /><br />
+			<tr><br /><br /><br /><br /><br /><br /><br /><br /><br />
+			<td align=”center” style=”border:1px solid; border-color:#49251e″><br /><br /><br /><br /><br /><br /><br /><br /><br />
+			<select name=”slide” onChange=”rotate(this.selectedIndex);”><option value=”img/HomeComing Carnival.JPG”>This year the Boyertown Chapter ran a concession stand, providing food and refreshments for the event, along with a game “Doctor Pop-a-Glove”, where participants attempted to pop rubber gloves with darts for a prize. </option><option value=”img/Puprle heart Award.jpg”>By participating in Relay for Life we set an example for other TSA chapters by encouraging support for the efforts of American Cancer Society. This act also demonstrated to our community what the Boyertown TSA chapter represents and supports.. 
+</option><option value=”img/Tech Fest.JPG”>Techfest brings the community together and reward students for their hard work and achievements.TSA was represented at several of the different sessions including an exhibit on Engineering Design, and an exhibit on VEX Robotics.  </option><option value=”img/Competion 2.JPG”>The Technology Student Association hosts annual competitions where school chapters compete in a variety of STEM based events and showcase their projects for first, second, and third place. During the month of February a regional conference is held where school chapters meet and compete against other chapters in their region. This conference decides which students qualify to move onto the state level competing against chapters throughout the state.  </option></select><br /><br /><br /><br /><br /><br /><br /><br /><br />
+			</td><br /><br /><br /><br /><br /><br /><br /><br /><br />
+			</tr><br /><br /><br /><br /><br /><br /><br /><br /><br />
+			</table><br /><br /><br /><br /><br /><br /><br /><br /><br />
+			<p>
 
-			<p class="bodyText1">
-				 I believe that Technology Education holds an important place in my live in the technical world. I believe there is a need for the development of good attitudes concerning work, tools, materials, experimentation and processes of industry. Guided by my teachers, artisans from industry and my own initiative, I will strive to do my best in making my school, community, state and nation better places in which to live. I will accept the responsibilities that are mine. I will accept the theories that are supported by proper evidence. I will explore on my own for safer, more effective methods of working and living. I will strive to develop a cooperative attitude and will exercise tact and respect for other individuals.Through the work of my hands and mind, I will express my ideas to the best of my ability. I will make it my goal to do better each day the task before me and to be steadfast in my belief in my God, and my fellow Americans.
-			</p>
-			<br>
-
-			<p class="subtitleText2">
-				Pennsylvania State Officers
-			</p>
 
 			<table width="100%" border="0">
   				<tr>
@@ -76,21 +105,9 @@
   				</tr>
 			</table>
 			<br><br>
-			<p class="bodyText1">
-				(Left to Right) President Francis Chalissery, Vice President Ben Abt, Secretary Maddy Okkerse, Treasurer Abigail Reigner
-				Reporter Lyndsey Nedrow, Sergeant- At-Arms Charisma Hasan, Historian Meysoon Quraishi, Parliamentarian Julian Ginzburg
-			</p>
-
-
-			<p class="subtitleText2">
-				Competitions
-			</p>
-
-			<p class="bodyText1">
-				The Technology Student Association hosts annual competitions where school chapters compete in a variety of STEM based events and showcase their projects for first, second, and third place. During the month of February a regional conference is held where school chapters meet and compete against other chapters in their region. This conference decides which students qualify to move onto the state level competing against chapters throughout the state. In Pennsylvania TSA this conference is a 3 day event in early April held at Seven Springs Resort. If students compete well at States chapters have the opportunity to go and compete on the highest level, nationals. The national conference consists of chapters throughout the United States and even international countries of Turkey, Greece, and Japan. Last year’s national conference was held at a beautiful resort in Orlando, Florida. The conference not only allows the students to compete at a high level but also to meet new people outside their small community and develop new friendships.
-			</p>
+	
 				<center>
-					<img scr="img/Competition 1.JPG" width="60%"/>
+					<img scr="img/TSA.jpg" width="60%"/>
 				</center>
 
 			<br><br>
